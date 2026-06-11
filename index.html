@@ -53,8 +53,8 @@
 </head>
 <body>
   <main>
-    <section class="top"><div><h1>Project Dashboard</h1><p>2026-06-10T14:33:10.918Z</p></div><div class="stat">過去7日 75 コミット</div></section>
-    <section class="timeline"><h2>📅 最近のアクティビティ</h2><details open><summary>今日 (2026-06-10)</summary><p class="headline">納車管理システムで納品前の総点検と通知整理を進め、納車案件として使いやすい形へ修正しました。中古車販売管理では改善要望を受け付ける仕組みの連携準備も進みました。</p><ul class="fs-updates"><li>📂 <span class="project-chip">GS_analyzier</span> 231 ファイル更新</li></ul><details><summary>コミット詳細 (6 件)</summary><ol><li><time>17:48</time> <span class="project-chip">pit_system</span> fix(noukan): pivot後QA — dead-link除去・納車案件リブランド・通知ルール整理</li><li><time>19:45</time> <span class="project-chip">pit_system</span> feat(noukan): 監査残課題の一括解消 — 進行中/完了タブ + 納車前日リマインド + dead code除去</li><li><time>19:48</time> <span class="project-chip">delively_flow</span> chore(ci): Claude Code Action を追加 (@claudeメンションで修正PR)</li><li><time>19:49</time> <span class="project-chip">delively_flow</span> Merge pull request #13 from kamitaku-wq/chore/claude-code-action</li><li><time>21:52</time> <span class="project-chip">pit_system</span> fix(noukan)!: 納品前総点検 — 8観点監査で確定した P1×7 + P2×30超 を一括修正</li><li><time>22:09</time> <span class="project-chip">pit_system</span> fix(noukan): ライブ監査対応 — 業者ポータル fail-closed ガード + 予約ステータス残骸の非表示化</li></ol></details></details><details open><summary>昨日 (2026-06-09)</summary><p class="headline">納車管理システムでは予約中心から納車準備の管理へ大きく方向転換し、不要な仕組みの整理を開始しました。中古車販売管理では案件番号の見やすさ、改善要望の受付、外部連携を強化しました。</p><ul class="fs-updates"><li>📂 <span class="project-chip">sysmaker</span> 3 ファイル更新</li><li>📂 <span class="project-chip">GS_analyzier</span> 593 ファイル更新</li></ul><details><summary>コミット詳細 (17 件)</summary><ol><li><time>10:36</time> <span class="project-chip">delively_flow</span> feat: 整備(works)関連を全画面で非表示 (別システム利用のため)</li><li><time>10:44</time> <span class="project-chip">delively_flow</span> feat: 管理番号(deal_no)の視認性を全画面で向上</li><li><time>11:21</time> <span class="project-chip">delively_flow</span> feat: バグ/改善レポート機能を新設 (フォーム + compute-on-read + pg_cron補助)</li><li><time>12:26</time> <span class="project-chip">delively_flow</span> docs: batch1 handoff</li><li><time>12:35</time> <span class="project-chip">delively_flow</span> Merge pull request #8 from kamitaku-wq/feat/ux-fixes-batch1</li><li><time>14:37</time> <span class="project-chip">delively_flow</span> fix(security): cron専用関数のEXECUTE権限をanon/authenticatedから剥奪</li><li><time>15:21</time> <span class="project-chip">pit_system</span> feat(noukan): 納車管理へpivot — 納車案件23列 + 予約系de-route(可逆)</li><li><time>15:23</time> <span class="project-chip">delively_flow</span> Merge pull request #9 from kamitaku-wq/feat/ux-fixes-batch1</li><li><time>15:30</time> <span class="project-chip">pit_system</span> docs(noukan): 本番反映ゲート runbook を追加</li><li><time>15:57</time> <span class="project-chip">pit_system</span> feat(noukan)!: Phase F — 予約系コードの物理削除（不可逆改修の前段）</li><li><time>16:12</time> <span class="project-chip">delively_flow</span> feat(feedback): フィードバック投稿をGitHub Issueへ自動起票 (pg_cron→アプリAPI)</li><li><time>16:55</time> <span class="project-chip">delively_flow</span> Merge pull request #10 from kamitaku-wq/feat/feedback-github-issues</li><li><time>17:05</time> <span class="project-chip">pit_system</span> feat(noukan)!: Phase F — レーン稼働率KPIの除去 + 本番DB DROP適用</li><li><time>17:12</time> <span class="project-chip">pit_system</span> fix(noukan): Phase F DROP を post/0056 で auto-apply 化 (Schema Drift 回避)</li><li><time>18:02</time> <span class="project-chip">pit_system</span> chore(noukan): 予約 purge cron/関数の廃止 migration を追加 (post/0057)</li><li><time>21:24</time> <span class="project-chip">delively_flow</span> feat(feedback): GitHub Issueクローズ→feedback同期 (Phase2 webhook)</li><li><time>21:35</time> <span class="project-chip">delively_flow</span> Merge pull request #12 from kamitaku-wq/feat/feedback-issue-webhook</li></ol></details></details><details><summary>2日前 (2026-06-08)</summary><p class="headline">中古車販売管理で営業・管理・整備それぞれが次にやることを把握しやすい画面改善を進めました。納車管理システムでは役割制限や状態の見せ方を見直し、業務フローを壊しにくい形へ整えました。</p><ul class="fs-updates"><li>📂 <span class="project-chip">GS_analyzier</span> 85 ファイル更新</li></ul><details><summary>コミット詳細 (18 件)</summary><ol><li><time>00:16</time> <span class="project-chip">pit_system</span> feat(rbac): 経営・運用ページ(KPI/監査/予約トークン)を店長以上に制限</li><li><time>00:39</time> <span class="project-chip">pit_system</span> feat(ux): 状態遷移を「種別×状態」カード表示に再構成 + 形骸化フィールド削除</li><li><time>01:05</time> <span class="project-chip">pit_system</span> refactor(ux): 状態遷移を閲覧専用化（利用者が業務フローを壊せないように）</li><li><time>08:38</time> <span class="project-chip">pit_system</span> fix(ux): 状態遷移ページの本番サーバ例外を修正（クエリ並列度の抑制＋堅牢化）</li><li><time>20:32</time> <span class="project-chip">delively_flow</span> feat(admin): 管理ホームにステータス別ボトルネック集計を追加 (フェーズ0-C)</li><li><time>20:32</time> <span class="project-chip">delively_flow</span> fix(deals): 管理職ドリルダウンbug修正 + ステータス遷移履歴の記録開始</li><li><time>20:35</time> <span class="project-chip">delively_flow</span> feat(deals): 案件の「まとめて更新」シートを追加 (フェーズ0-B)</li><li><time>20:52</time> <span class="project-chip">delively_flow</span> docs: ステータスUX移植状況と認可乖離の記録 (要オーナー判断)</li><li><time>21:17</time> <span class="project-chip">delively_flow</span> fix(deals): まとめて更新を最新origin/mainの2引数canChangeDealStatusに適合</li><li><time>21:20</time> <span class="project-chip">delively_flow</span> Merge pull request #5 from kamitaku-wq/feat/status-ux</li><li><time>21:57</time> <span class="project-chip">delively_flow</span> feat(sales): 営業ホームに「次にやること」ワークリストを追加 (フェーズ0-A)</li><li><time>22:13</time> <span class="project-chip">delively_flow</span> feat(deals): 一覧ソート切替＋NextActions優先度順・アンカーリンク</li><li><time>22:13</time> <span class="project-chip">delively_flow</span> feat(home): ME/DSホームのパイプライン導線を改善</li><li><time>22:27</time> <span class="project-chip">delively_flow</span> feat(mech): 整備ホームに遅延(予定日超過)の滞留可視化を追加</li><li><time>22:34</time> <span class="project-chip">delively_flow</span> Merge pull request #6 from kamitaku-wq/feat/status-ux-usability</li><li><time>23:01</time> <span class="project-chip">delively_flow</span> feat(auth): DS(事務)に書類系ステータスの編集権限を復活 (90c28aa統合)</li><li><time>23:09</time> <span class="project-chip">delively_flow</span> docs: ステータスUX評価ガイド(現場確認用・ペルソナ別ウォークスルー+P0ヒアリング項目)</li><li><time>23:14</time> <span class="project-chip">delively_flow</span> Merge pull request #7 from kamitaku-wq/feat/ds-status-auth</li></ol></details></details><details><summary>3日前 (2026-06-07)</summary><p class="headline">中古車販売管理で役割ごとの画面出し分けを広げ、提案サイトでは日本語表現や表示崩れを整えました。納車管理システムでは設定画面、通知、権限まわりの使いやすさを大きく改善しました。</p><details><summary>コミット詳細 (19 件)</summary><ol><li><time>00:01</time> <span class="project-chip">pit_system</span> fix(ux): Codex QA 検出バグ修正 (use-server export + ヘッダー設定リンクのロール出し分け)</li><li><time>09:40</time> <span class="project-chip">goodspeed</span> fix: 提案サイトの日本語コピーとタイポグラフィを調整（表記統一・改行・字間・行間）</li><li><time>11:13</time> <span class="project-chip">goodspeed</span> fix: 日本語の語中改行を解消（auto-phrase導入＋文節制御）</li><li><time>12:10</time> <span class="project-chip">pit_system</span> fix(ux): マスターフォーム全リソースの例外→overlay を graceful 化 (Codex QA フォロー)</li><li><time>12:38</time> <span class="project-chip">delively_flow</span> feat(auth): ロール別UI出し分けを全画面に適用</li><li><time>12:41</time> <span class="project-chip">delively_flow</span> Merge pull request #3 from kamitaku-wq/fix/codex-review-followup</li><li><time>13:25</time> <span class="project-chip">goodspeed</span> fix: 改行修正後のデザイン微調整（claim原寸復帰＋部署ボタンのコンパクト化）</li><li><time>14:09</time> <span class="project-chip">pit_system</span> feat(ux): 設定UX簡素化 + ダミーUI除去 + 通知ルール安全化 (Track A+B)</li><li><time>14:35</time> <span class="project-chip">goodspeed</span> fix: onepage バイク部門のサブ箇条書きの表示崩れを修正（grid範囲漏れ）</li><li><time>14:55</time> <span class="project-chip">goodspeed</span> feat: 提案トップを「2択(価格)→プラン②ならデザイン3案」の意思決定フローに再構成</li><li><time>15:19</time> <span class="project-chip">pit_system</span> fix(auth): 管理者ゲートのログインループを解消 (認証済み非adminを区別)</li><li><time>16:00</time> <span class="project-chip">pit_system</span> chore(qa): dev outbox 抽出ヘルパー追加 (公開予約フロー e2e 用)</li><li><time>16:20</time> <span class="project-chip">pit_system</span> feat(ux): 完了メールに予約変更/キャンセルの自己サービスリンクを掲載</li><li><time>16:32</time> <span class="project-chip">pit_system</span> test: 顧客予約トークン監査テストをフィクスチャ単位にスコープ</li><li><time>18:24</time> <span class="project-chip">pit_system</span> docs: 残作業網羅調査レポート + 業者通知(item4)の defer 実装仕様</li><li><time>18:24</time> <span class="project-chip">pit_system</span> fix(ops): Inngest env 遅延化(M6) + KPI 配送記録 + 添付Storage削除 + E2E招待ウィザード追従</li><li><time>21:36</time> <span class="project-chip">pit_system</span> feat(ux): 状態遷移一覧→フロー図 逆リンク追加 (回遊性・残作業調査B項目)</li><li><time>23:10</time> <span class="project-chip">pit_system</span> feat(i18n): UIと帳票の英語文言を日本語化 + ステータス表示名 migration(0053)</li><li><time>23:47</time> <span class="project-chip">pit_system</span> feat(rbac): ロール表示名の日本語化 + 未使用ロール非表示 + 権限画面を確認用に明示</li></ol></details></details><details><summary>4日前 (2026-06-06)</summary><p class="headline">納車管理システムで入力部品の統一と通知の前日案内を進め、現場での操作をそろえやすくしました。</p><details><summary>コミット詳細 (3 件)</summary><ol><li><time>09:03</time> <span class="project-chip">pit_system</span> fix(db): 0050 migration を to_regprocedure ガードで移植可能に</li><li><time>09:40</time> <span class="project-chip">pit_system</span> refactor(ui): マスターCRUD 19ファイルを DS Field に統一 (#25)</li><li><time>10:21</time> <span class="project-chip">pit_system</span> feat(notifications): 通知スケジューラ H5前日リマインド/H6業者未確認再通知 (★4)</li></ol></details></details><details><summary>5日前 (2026-06-05)</summary><p class="headline">提案サイトは部署別の行動指針を中心にした資料へ再構成しました。納車管理システムではフォームや一覧の使いやすさを広く改善し、運送業務システムでは店間移動時の打刻に対応しました。</p><details><summary>コミット詳細 (7 件)</summary><ol><li><time>14:09</time> <span class="project-chip">unso-os</span> fix(attendance): カーリペアの退勤打刻をいずれかの店舗範囲内で可能に(店間移動対応)</li><li><time>18:01</time> <span class="project-chip">pit_system</span> feat(ux): フォーム/一覧のUX横断改善 (P0全件 + P1主要 + フィルタ即時適用)</li><li><time>20:24</time> <span class="project-chip">pit_system</span> feat(ux): フォームUX監査バケツ(a) — 認証画面/フィルタ/インラインエラー等13項目</li><li><time>21:20</time> <span class="project-chip">goodspeed</span> feat: 部署別行動指針へピボット — ポリシー3案修正＋部署紹介3案＋統合1ページ、TOP取り下げ</li><li><time>22:33</time> <span class="project-chip">pit_system</span> chore(rbac): 非adminロールの dev 検証用 seed スクリプト追加</li><li><time>23:06</time> <span class="project-chip">goodspeed</span> feat: データ共有用に提案資料を再構成 — 中立な提案インデックス新設＋付録(印刷)退避＋Cloudflare Pages配信</li><li><time>23:09</time> <span class="project-chip">pit_system</span> feat(rbac): 業務系UIのロール別ボタン出し分け (fail-closed enforcement のUX整合)</li></ol></details></details><details><summary>6日前 (2026-06-04)</summary><p class="headline">納車管理システムで主要な入力画面を見直し、選択しやすさや自動補完など現場入力の負担を減らす改善を行いました。</p><details><summary>コミット詳細 (1 件)</summary><ol><li><time>22:42</time> <span class="project-chip">pit_system</span> feat(ux): 主要フォームの入力体験を全面最適化 (Combobox/RadioCard/派生補完/郵便番号補完)</li></ol></details></details></section>
+    <section class="top"><div><h1>Project Dashboard</h1><p>2026-06-11T14:32:20.591Z</p></div><div class="stat">過去7日 93 コミット</div></section>
+    <section class="timeline"><h2>📅 最近のアクティビティ</h2><details open><summary>今日 (2026-06-11)</summary><p class="headline">納車管理系の2案件で納品前の修正と安定化を進め、広告分析や提案資料、運送業向け集計画面も更新。全体として実利用前の仕上げと見える化の強化が中心の日です。</p><ul class="fs-updates"><li>📂 <span class="project-chip">sysmaker</span> 5 ファイル更新</li></ul><details><summary>コミット詳細 (22 件)</summary><ol><li><time>08:24</time> <span class="project-chip">delively_flow</span> fix: 納品前監査の修正一式 (2026-06-10 pre-delivery audit)</li><li><time>08:55</time> <span class="project-chip">GS_analyzier</span> chore: baseline before UI/UX refresh (MVP completed state)</li><li><time>09:38</time> <span class="project-chip">delively_flow</span> fix(ui): 納品前 UI レビュー (design-reviewer) の P1 指摘を修正</li><li><time>09:54</time> <span class="project-chip">GS_analyzier</span> feat: UI/UX refresh — design tokens, fonts, navigation, ads restructure</li><li><time>09:55</time> <span class="project-chip">pit_system</span> fix(noukan): 納品前仕上げ — CI赤の全解消 + ログイン誤導線修正 + ライブ監査ツール</li><li><time>15:43</time> <span class="project-chip">goodspeed</span> fix: 提案ページから価格見積もりを削除（料金は内容確定後の別途お見積もりに変更）</li><li><time>16:02</time> <span class="project-chip">GS_analyzier</span> feat: リモート共有(Basic認証) + 複数店舗対応</li><li><time>16:12</time> <span class="project-chip">delively_flow</span> fix: コードレビュー指摘 9 件を修正 (認可リダイレクト / JST 表示 / tx 一貫性ほか)</li><li><time>16:34</time> <span class="project-chip">delively_flow</span> chore(ci): Claude Code Action にトリガー制限と課金仕様変更の注記を追加</li><li><time>16:44</time> <span class="project-chip">GS_analyzier</span> feat: ブラウザCSV取込 + モバイル対応仕上げ</li><li><time>18:22</time> <span class="project-chip">pit_system</span> fix(noukan): 本番 EMAXCONN 障害対応 — DB client 接続の寿命管理と fail-fast 化</li><li><time>19:19</time> <span class="project-chip">delively_flow</span> docs(manual): マニュアル画像を現行 UI で全面再撮影</li><li><time>19:23</time> <span class="project-chip">GS_analyzier</span> feat: Fly.io 本番デプロイ + MCP Streamable HTTP 化 (claude.ai コネクタ対応)</li><li><time>19:28</time> <span class="project-chip">delively_flow</span> fix(auth): admin layout を requireSession に統一 (Codex 第二意見の指摘)</li><li><time>20:00</time> <span class="project-chip">GS_analyzier</span> feat: Google広告 日次自動プッシュ (Ads Scripts → upload API 直接送信)</li><li><time>20:07</time> <span class="project-chip">delively_flow</span> Merge pull request #15 from kamitaku-wq/chore/claude-action-credit-guard</li><li><time>20:07</time> <span class="project-chip">delively_flow</span> Merge pull request #14 from kamitaku-wq/fix/pre-delivery-audit</li><li><time>20:35</time> <span class="project-chip">GS_analyzier</span> feat: Google広告 オーディエンス分析 (年齢/性別/地域/時間帯/曜日の日次セグメント)</li><li><time>21:37</time> <span class="project-chip">pit_system</span> feat(noukan): 納車案件一覧を現場動線対応 — Excel 同等のインライン更新</li><li><time>22:17</time> <span class="project-chip">unso-os</span> feat(dashboard): スタッフ稼働分析に時間あたり売上と人件費内訳を追加(カーリペア)</li><li><time>22:58</time> <span class="project-chip">GS_analyzier</span> feat: ダッシュボードを意思決定指向の計器盤型に再設計</li><li><time>23:19</time> <span class="project-chip">pit_system</span> feat(noukan)!: 納車作業管理システムへの UX 抜本改革 (P0)</li></ol></details></details><details open><summary>昨日 (2026-06-10)</summary><p class="headline">納車管理システムで、利用前の総点検で見つかった不具合や分かりにくい導線をまとめて修正。開発支援の仕組みも追加され、確認から修正までの流れを整えています。</p><details><summary>コミット詳細 (6 件)</summary><ol><li><time>17:48</time> <span class="project-chip">pit_system</span> fix(noukan): pivot後QA — dead-link除去・納車案件リブランド・通知ルール整理</li><li><time>19:45</time> <span class="project-chip">pit_system</span> feat(noukan): 監査残課題の一括解消 — 進行中/完了タブ + 納車前日リマインド + dead code除去</li><li><time>19:48</time> <span class="project-chip">delively_flow</span> chore(ci): Claude Code Action を追加 (@claudeメンションで修正PR)</li><li><time>19:49</time> <span class="project-chip">delively_flow</span> Merge pull request #13 from kamitaku-wq/chore/claude-code-action</li><li><time>21:52</time> <span class="project-chip">pit_system</span> fix(noukan)!: 納品前総点検 — 8観点監査で確定した P1×7 + P2×30超 を一括修正</li><li><time>22:09</time> <span class="project-chip">pit_system</span> fix(noukan): ライブ監査対応 — 業者ポータル fail-closed ガード + 予約ステータス残骸の非表示化</li></ol></details></details><details><summary>2日前 (2026-06-09)</summary><p class="headline">中古車販売向けの納車管理で、現場に不要な機能を隠し、管理番号の見やすさや改善要望の受付を追加。別プロジェクトでは予約中心の仕組みから納車管理中心へ大きく方向転換しました。</p><details><summary>コミット詳細 (17 件)</summary><ol><li><time>10:36</time> <span class="project-chip">delively_flow</span> feat: 整備(works)関連を全画面で非表示 (別システム利用のため)</li><li><time>10:44</time> <span class="project-chip">delively_flow</span> feat: 管理番号(deal_no)の視認性を全画面で向上</li><li><time>11:21</time> <span class="project-chip">delively_flow</span> feat: バグ/改善レポート機能を新設 (フォーム + compute-on-read + pg_cron補助)</li><li><time>12:26</time> <span class="project-chip">delively_flow</span> docs: batch1 handoff</li><li><time>12:35</time> <span class="project-chip">delively_flow</span> Merge pull request #8 from kamitaku-wq/feat/ux-fixes-batch1</li><li><time>14:37</time> <span class="project-chip">delively_flow</span> fix(security): cron専用関数のEXECUTE権限をanon/authenticatedから剥奪</li><li><time>15:21</time> <span class="project-chip">pit_system</span> feat(noukan): 納車管理へpivot — 納車案件23列 + 予約系de-route(可逆)</li><li><time>15:23</time> <span class="project-chip">delively_flow</span> Merge pull request #9 from kamitaku-wq/feat/ux-fixes-batch1</li><li><time>15:30</time> <span class="project-chip">pit_system</span> docs(noukan): 本番反映ゲート runbook を追加</li><li><time>15:57</time> <span class="project-chip">pit_system</span> feat(noukan)!: Phase F — 予約系コードの物理削除（不可逆改修の前段）</li><li><time>16:12</time> <span class="project-chip">delively_flow</span> feat(feedback): フィードバック投稿をGitHub Issueへ自動起票 (pg_cron→アプリAPI)</li><li><time>16:55</time> <span class="project-chip">delively_flow</span> Merge pull request #10 from kamitaku-wq/feat/feedback-github-issues</li><li><time>17:05</time> <span class="project-chip">pit_system</span> feat(noukan)!: Phase F — レーン稼働率KPIの除去 + 本番DB DROP適用</li><li><time>17:12</time> <span class="project-chip">pit_system</span> fix(noukan): Phase F DROP を post/0056 で auto-apply 化 (Schema Drift 回避)</li><li><time>18:02</time> <span class="project-chip">pit_system</span> chore(noukan): 予約 purge cron/関数の廃止 migration を追加 (post/0057)</li><li><time>21:24</time> <span class="project-chip">delively_flow</span> feat(feedback): GitHub Issueクローズ→feedback同期 (Phase2 webhook)</li><li><time>21:35</time> <span class="project-chip">delively_flow</span> Merge pull request #12 from kamitaku-wq/feat/feedback-issue-webhook</li></ol></details></details><details><summary>3日前 (2026-06-08)</summary><p class="headline">納車管理画面で、営業や管理者が次にやることや詰まりを見つけやすくする改善を進めました。役割ごとの操作範囲や画面の使いやすさも合わせて見直しています。</p><details><summary>コミット詳細 (18 件)</summary><ol><li><time>00:16</time> <span class="project-chip">pit_system</span> feat(rbac): 経営・運用ページ(KPI/監査/予約トークン)を店長以上に制限</li><li><time>00:39</time> <span class="project-chip">pit_system</span> feat(ux): 状態遷移を「種別×状態」カード表示に再構成 + 形骸化フィールド削除</li><li><time>01:05</time> <span class="project-chip">pit_system</span> refactor(ux): 状態遷移を閲覧専用化（利用者が業務フローを壊せないように）</li><li><time>08:38</time> <span class="project-chip">pit_system</span> fix(ux): 状態遷移ページの本番サーバ例外を修正（クエリ並列度の抑制＋堅牢化）</li><li><time>20:32</time> <span class="project-chip">delively_flow</span> feat(admin): 管理ホームにステータス別ボトルネック集計を追加 (フェーズ0-C)</li><li><time>20:32</time> <span class="project-chip">delively_flow</span> fix(deals): 管理職ドリルダウンbug修正 + ステータス遷移履歴の記録開始</li><li><time>20:35</time> <span class="project-chip">delively_flow</span> feat(deals): 案件の「まとめて更新」シートを追加 (フェーズ0-B)</li><li><time>20:52</time> <span class="project-chip">delively_flow</span> docs: ステータスUX移植状況と認可乖離の記録 (要オーナー判断)</li><li><time>21:17</time> <span class="project-chip">delively_flow</span> fix(deals): まとめて更新を最新origin/mainの2引数canChangeDealStatusに適合</li><li><time>21:20</time> <span class="project-chip">delively_flow</span> Merge pull request #5 from kamitaku-wq/feat/status-ux</li><li><time>21:57</time> <span class="project-chip">delively_flow</span> feat(sales): 営業ホームに「次にやること」ワークリストを追加 (フェーズ0-A)</li><li><time>22:13</time> <span class="project-chip">delively_flow</span> feat(deals): 一覧ソート切替＋NextActions優先度順・アンカーリンク</li><li><time>22:13</time> <span class="project-chip">delively_flow</span> feat(home): ME/DSホームのパイプライン導線を改善</li><li><time>22:27</time> <span class="project-chip">delively_flow</span> feat(mech): 整備ホームに遅延(予定日超過)の滞留可視化を追加</li><li><time>22:34</time> <span class="project-chip">delively_flow</span> Merge pull request #6 from kamitaku-wq/feat/status-ux-usability</li><li><time>23:01</time> <span class="project-chip">delively_flow</span> feat(auth): DS(事務)に書類系ステータスの編集権限を復活 (90c28aa統合)</li><li><time>23:09</time> <span class="project-chip">delively_flow</span> docs: ステータスUX評価ガイド(現場確認用・ペルソナ別ウォークスルー+P0ヒアリング項目)</li><li><time>23:14</time> <span class="project-chip">delively_flow</span> Merge pull request #7 from kamitaku-wq/feat/ds-status-auth</li></ol></details></details><details><summary>4日前 (2026-06-07)</summary><p class="headline">複数プロジェクトで役割ごとの表示や操作範囲を整理し、設定画面や通知まわりの分かりにくさを修正。提案サイトでは日本語の見せ方と意思決定の流れを整えました。</p><details><summary>コミット詳細 (19 件)</summary><ol><li><time>00:01</time> <span class="project-chip">pit_system</span> fix(ux): Codex QA 検出バグ修正 (use-server export + ヘッダー設定リンクのロール出し分け)</li><li><time>09:40</time> <span class="project-chip">goodspeed</span> fix: 提案サイトの日本語コピーとタイポグラフィを調整（表記統一・改行・字間・行間）</li><li><time>11:13</time> <span class="project-chip">goodspeed</span> fix: 日本語の語中改行を解消（auto-phrase導入＋文節制御）</li><li><time>12:10</time> <span class="project-chip">pit_system</span> fix(ux): マスターフォーム全リソースの例外→overlay を graceful 化 (Codex QA フォロー)</li><li><time>12:38</time> <span class="project-chip">delively_flow</span> feat(auth): ロール別UI出し分けを全画面に適用</li><li><time>12:41</time> <span class="project-chip">delively_flow</span> Merge pull request #3 from kamitaku-wq/fix/codex-review-followup</li><li><time>13:25</time> <span class="project-chip">goodspeed</span> fix: 改行修正後のデザイン微調整（claim原寸復帰＋部署ボタンのコンパクト化）</li><li><time>14:09</time> <span class="project-chip">pit_system</span> feat(ux): 設定UX簡素化 + ダミーUI除去 + 通知ルール安全化 (Track A+B)</li><li><time>14:35</time> <span class="project-chip">goodspeed</span> fix: onepage バイク部門のサブ箇条書きの表示崩れを修正（grid範囲漏れ）</li><li><time>14:55</time> <span class="project-chip">goodspeed</span> feat: 提案トップを「2択(価格)→プラン②ならデザイン3案」の意思決定フローに再構成</li><li><time>15:19</time> <span class="project-chip">pit_system</span> fix(auth): 管理者ゲートのログインループを解消 (認証済み非adminを区別)</li><li><time>16:00</time> <span class="project-chip">pit_system</span> chore(qa): dev outbox 抽出ヘルパー追加 (公開予約フロー e2e 用)</li><li><time>16:20</time> <span class="project-chip">pit_system</span> feat(ux): 完了メールに予約変更/キャンセルの自己サービスリンクを掲載</li><li><time>16:32</time> <span class="project-chip">pit_system</span> test: 顧客予約トークン監査テストをフィクスチャ単位にスコープ</li><li><time>18:24</time> <span class="project-chip">pit_system</span> docs: 残作業網羅調査レポート + 業者通知(item4)の defer 実装仕様</li><li><time>18:24</time> <span class="project-chip">pit_system</span> fix(ops): Inngest env 遅延化(M6) + KPI 配送記録 + 添付Storage削除 + E2E招待ウィザード追従</li><li><time>21:36</time> <span class="project-chip">pit_system</span> feat(ux): 状態遷移一覧→フロー図 逆リンク追加 (回遊性・残作業調査B項目)</li><li><time>23:10</time> <span class="project-chip">pit_system</span> feat(i18n): UIと帳票の英語文言を日本語化 + ステータス表示名 migration(0053)</li><li><time>23:47</time> <span class="project-chip">pit_system</span> feat(rbac): ロール表示名の日本語化 + 未使用ロール非表示 + 権限画面を確認用に明示</li></ol></details></details><details><summary>5日前 (2026-06-06)</summary><p class="headline">納車・整備系システムで、通知の予定送信や管理画面の入力部品を整備。運用時に移植しやすく、使いやすい形へ土台を固めています。</p><details><summary>コミット詳細 (3 件)</summary><ol><li><time>09:03</time> <span class="project-chip">pit_system</span> fix(db): 0050 migration を to_regprocedure ガードで移植可能に</li><li><time>09:40</time> <span class="project-chip">pit_system</span> refactor(ui): マスターCRUD 19ファイルを DS Field に統一 (#25)</li><li><time>10:21</time> <span class="project-chip">pit_system</span> feat(notifications): 通知スケジューラ H5前日リマインド/H6業者未確認再通知 (★4)</li></ol></details></details><details><summary>6日前 (2026-06-05)</summary><p class="headline">提案資料は部署別の行動指針へ方針転換し、運送・カーリペア系では店舗をまたぐ勤務の扱いを改善。納車・整備系ではフォームや一覧画面の使いやすさを横断的に直しました。</p><details><summary>コミット詳細 (7 件)</summary><ol><li><time>14:09</time> <span class="project-chip">unso-os</span> fix(attendance): カーリペアの退勤打刻をいずれかの店舗範囲内で可能に(店間移動対応)</li><li><time>18:01</time> <span class="project-chip">pit_system</span> feat(ux): フォーム/一覧のUX横断改善 (P0全件 + P1主要 + フィルタ即時適用)</li><li><time>20:24</time> <span class="project-chip">pit_system</span> feat(ux): フォームUX監査バケツ(a) — 認証画面/フィルタ/インラインエラー等13項目</li><li><time>21:20</time> <span class="project-chip">goodspeed</span> feat: 部署別行動指針へピボット — ポリシー3案修正＋部署紹介3案＋統合1ページ、TOP取り下げ</li><li><time>22:33</time> <span class="project-chip">pit_system</span> chore(rbac): 非adminロールの dev 検証用 seed スクリプト追加</li><li><time>23:06</time> <span class="project-chip">goodspeed</span> feat: データ共有用に提案資料を再構成 — 中立な提案インデックス新設＋付録(印刷)退避＋Cloudflare Pages配信</li><li><time>23:09</time> <span class="project-chip">pit_system</span> feat(rbac): 業務系UIのロール別ボタン出し分け (fail-closed enforcement のUX整合)</li></ol></details></details></section>
     <section class="projects"><h2>Projects</h2><div class="grid"><article class="card">
     <header><h3>ai-juku</h3><span class="badge">活発に開発中</span></header>
     <p class="phase">現在地: 先生への通知連携を本番向けに整備中</p>
@@ -64,7 +64,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>先生へ通知が届く流れを完成させる</li><li>生徒ごとに担当する先生を正しく扱えるようにする</li><li>つまずいた生徒への自動声かけを確認する</li><li>スマートフォン実機で学習画面を確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画は13段階で、現在は6段階目付近です。残りは保護者向け報告、学習計画、本人ページなどが続くため、完成までは1-2か月以上の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">21日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">22日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 1249</li><li>技術: TypeScript, JavaScript, Python, Kotlin, Markdown</li><li>直近30日のコミット: 102</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: Phase 1.98 / v0.10.5-v0.10.6 planning after v0.10.4 sealed</li></ul>
     </details>
@@ -77,22 +77,22 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>契約に関わる人を追加・確認・削除できるようにする</li><li>連帯保証人の扱いを確認して反映する</li><li>契約作成の残り部分を完了扱いにする</li><li>契約金額や本部確認の後続作業へ進む</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため残量は断定できません。契約まわりの基礎は進んでいますが、金額確認や本部確認など後続の大きな作業が残っており、少なくとも数週間規模の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">12日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">13日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 538</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 59</li><li>進捗ドキュメント: 38 件</li><li>raw current_phase: Step 2-3-2 / P2-021</li></ul>
     </details>
   </article><article class="card">
     <header><h3>delively_flow</h3><span class="badge">活発に開発中</span></header>
-    <p class="phase">現在地: 現場向けの見やすさと改善受付を強化中</p>
+    <p class="phase">現在地: 納品前の最終確認と画面改善</p>
     <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">中古車販売の納車管理システムは、現場が次にやることを見つけやすくする改善と、利用者からの不具合・改善要望を集める仕組みが進んでいます。権限の扱いに一部判断待ちがあり、納品前に運用方針の確認が必要です。</p>
-    <ul class="features"><li class="done">✓ 案件番号の見やすさ</li><li class="done">✓ 改善要望の受付</li><li class="done">✓ 要望対応の連携</li><li class="done">✓ 管理者の詰まり把握</li><li class="done">✓ 案件のまとめ更新</li><li class="done">✓ 営業の次作業一覧</li><li class="in_progress">○ 説明書の整備</li><li class="in_progress">○ 表データの取込</li></ul>
+    <p class="summary">中古車販売の納車管理を行う業務画面は、納品前の点検と画面改善が進んでいます。直近では現場で使いやすくする修正、権限の整理、説明資料の更新が中心です。</p>
+    <ul class="features"><li class="done">✓ 案件一覧の見やすさ改善</li><li class="done">✓ まとめて更新</li><li class="done">✓ 役割別の表示整理</li><li class="done">✓ 改善要望の受付</li><li class="in_progress">○ 利用説明書</li><li class="done">✓ 取込機能</li><li class="in_progress">○ 権限方針の整理</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>役割ごとの編集範囲を最終判断する</li><li>本番反映前の確認を行う</li><li>説明書の仮完成版を見直す</li><li>表データ取込を実際のファイルで確認する</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画がないため完成率は出せません。直近は納品前の実務確認と権限判断が中心で、判断が固まれば数日から1-2週間で仕上げに進める見込みです。</p>
+    <ul class="next"><li>納品前の確認で見つかった修正を反映する</li><li>役割ごとの操作範囲を最終判断する</li><li>説明資料の文章と画面画像を再確認する</li><li>本番公開前の反映方法を確認する</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体の完成率を示す資料は不足していますが、直近の内容は納品前の仕上げ段階です。権限判断と説明資料確認が済めば、数日から1週間程度で確定版に近づく見込みです。</p>
     <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">今日</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 297</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 118</li><li>進捗ドキュメント: 6 件</li><li>raw current_phase: Status UX / feedback workflow, 2026-06-08 to 2026-06-10</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 300</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 126</li><li>進捗ドキュメント: 6 件</li><li>raw current_phase: pre-delivery audit / status UX handoff</li></ul>
     </details>
   </article><article class="card">
     <header><h3>eigyomap</h3><span class="badge">停止中</span></header>
@@ -103,7 +103,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在の目的と完成条件を整理する</li><li>直近で動いている画面や機能を確認する</li><li>全体ロードマップを作成する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠資料がないため、残作業や完成時期は判断できません。まずは全体計画を1枚にまとめる必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">59日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">60日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 122</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li></ul>
     </details>
@@ -116,35 +116,35 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在の目的と完了条件を文書化する</li><li>直近の作業履歴を整理する</li><li>継続するか保守扱いにするか判断する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠資料が乏しいため完成見込みは不明です。まず1日程度で状況整理を行い、継続開発か保守かを切り分ける必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">一時休止</span><span class="meta-chip">23日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">一時休止</span><span class="meta-chip">24日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 184</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 3</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
     </details>
   </article><article class="card">
     <header><h3>goodspeed</h3><span class="badge">活発に開発中</span></header>
-    <p class="phase">現在地: 部署別の提案資料を磨き込み中</p>
+    <p class="phase">現在地: 部署別の提案資料を調整中</p>
     <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">提案サイトは、トップページ案から部署別の行動指針を見せる資料へ方針転換済みです。現在は提案の見せ方や日本語表現を整え、意思決定しやすい構成へ磨き込んでいます。</p>
-    <ul class="features"><li class="done">✓ 部署別行動指針</li><li class="done">✓ 提案資料の再構成</li><li class="done">✓ 価格判断の導線</li><li class="done">✓ 日本語表現の調整</li><li class="done">✓ 表示崩れの修正</li><li class="done">✓ 統合提案ページ</li><li class="in_progress">○ 資料の公開準備</li></ul>
+    <p class="summary">グッドスピード向けの提案資料は、トップページ提案から部署別の行動指針提案へ方針転換済みです。直近では提案ページの表現調整と、料金の扱いを個別見積もりへ変更しています。</p>
+    <ul class="features"><li class="done">✓ 部署別行動指針</li><li class="in_progress">○ 提案ページ一式</li><li class="done">✓ 統合提案ページ</li><li class="done">✓ 提案資料の再構成</li><li class="done">✓ 日本語表現調整</li><li class="done">✓ 料金表示の整理</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>提案資料の最終確認を行う</li><li>根拠が必要な店舗情報を確認する</li><li>地図や掲載車両の見せ方を見直す</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップはなく、提案資料単位での進行です。主要な形はできており、残りは表現と根拠確認が中心なので、数日から1週間程度で提出候補にできる見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">3日前</span></footer>
+    <ul class="next"><li>提案ページの表現を最終確認する</li><li>資料内の根拠表現を確認する</li><li>未確認の店舗情報を照合する</li><li>共有先に合わせて提案資料を整える</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体工程を示す資料はないため完成率は出せません。提案内容は大枠が固まっており、残りは表現確認と事実確認が中心で、数日から1週間程度の仕上げ見込みです。</p>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">4日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 228</li><li>技術: Markdown</li><li>直近30日のコミット: 32</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: 2026-06-05 pivot to department action guidelines</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 228</li><li>技術: Markdown</li><li>直近30日のコミット: 33</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: 2026-06-05 方針転換 / 部署別行動指針</li></ul>
     </details>
   </article><article class="card">
-    <header><h3>GS_analyzier</h3><span class="badge">停止中</span></header>
-    <p class="phase">現在地: 作業内容の確認が必要</p>
+    <header><h3>GS_analyzier</h3><span class="badge">ゆるやかに継続</span></header>
+    <p class="phase">現在地: 初期版完成後の画面刷新</p>
     <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">直近で多数のファイル更新はありますが、進捗文書と履歴管理の情報がないため、何を目的に進めているかは判断できません。状況説明には根拠が不足しています。</p>
-    <ul class="features"><li class="unknown">○ 大量ファイル更新</li><li class="unknown">○ 目的整理</li><li class="unknown">○ 進捗管理</li><li class="unknown">○ 成果物の確認</li><li class="unknown">○ 作業履歴の整理</li></ul>
+    <p class="summary">広告や店舗の状況を見て判断しやすくする管理画面が、一気に整備されています。ただし進捗資料がないため、完成度は直近の作業内容から控えめに見る必要があります。</p>
+    <ul class="features"><li class="done">✓ 判断用ダッシュボード</li><li class="done">✓ 広告効果の分析</li><li class="done">✓ 広告データ自動連携</li><li class="done">✓ 複数店舗対応</li><li class="done">✓ 遠隔共有</li><li class="done">✓ 画面デザイン刷新</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>作業目的を確認する</li><li>成果物の一覧を整理する</li><li>今後の進め方を文書化する</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠文書がないため、残作業や完成時期は判断できません。まず目的と完成条件を1枚にまとめる必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">今日</span></footer>
+    <ul class="next"><li>初期版の利用確認を行う</li><li>複数店舗での見え方を確認する</li><li>広告データの反映状況を確認する</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">資料がないため残作業の全体像は不明です。直近の作業量からは初期版後の改善段階と見られ、確認と微調整に1-2週間程度かかる見込みです。</p>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">今日</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: なし</li><li>ファイル数: 909</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 1051</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 8</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: MVP completed state / UI UX refresh</li></ul>
     </details>
   </article><article class="card">
     <header><h3>kunimi</h3><span class="badge">活発に開発中</span></header>
@@ -155,22 +155,22 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>移住を考えている人に聞き取りを行う</li><li>独自の公開用住所を取得する</li><li>利用者向けの個人情報に関する説明を用意する</li><li>共有しやすい紹介表示を軽く整える</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">機能面は公開して試せる水準に到達しています。次は開発より需要確認が中心で、利用者インタビューと公開準備を1-2週間で進めるのが現実的です。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">11日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">12日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 110</li><li>技術: TypeScript, Python, Markdown</li><li>直近30日のコミット: 63</li><li>進捗ドキュメント: 6 件</li><li>raw current_phase: soft launch + decision tool reflected</li></ul>
     </details>
   </article><article class="card">
     <header><h3>pit_system</h3><span class="badge">活発に開発中</span></header>
-    <p class="phase">現在地: 納車管理システムへの大改修中</p>
-    <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">整備予約中心の仕組みから、納車までの準備を管理する仕組みへ大きく方向転換しています。直近は不要な予約機能の整理、納車案件の項目追加、通知と権限の見直しを集中的に進めています。</p>
-    <ul class="features"><li class="in_progress">○ 納車案件の管理</li><li class="done">✓ 進行中と完了の整理</li><li class="done">✓ 前日のお知らせ</li><li class="in_progress">○ 不要機能の削除</li><li class="in_progress">○ 業者向け受付画面</li><li class="done">✓ 役割ごとの制限</li><li class="in_progress">○ 通知ルール整理</li><li class="done">✓ 画面表現の統一</li></ul>
+    <p class="phase">現在地: 納車管理への作り替えと納品前仕上げ</p>
+    <div class="progress-section"><div class="progress-headline">100%<span class="basis"> — 当初ロードマップでは中核機能から公開まで完了済み。その後、納車管理への作り替えが別作業として進行中。</span></div><div class="progress-bar"><div style="width:100%"></div></div></div>
+    <p class="summary">当初の整備予約システムは一度完成していますが、その後、納車管理を中心にした業務システムへ大きく作り替えています。直近は納品前の不具合解消、現場向けの入力改善、安定稼働の確認が集中しています。</p>
+    <ul class="features"><li class="in_progress">○ 納車案件管理</li><li class="done">✓ 現場向け一覧更新</li><li class="in_progress">○ 店間移動連携</li><li class="in_progress">○ 業者向け画面</li><li class="in_progress">○ 役割別の利用制限</li><li class="done">✓ 通知の安全化</li><li class="done">✓ 画面デザイン統一</li><li class="in_progress">○ 納品前の総点検</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>納車管理への置き換えを最終確認する</li><li>不要になった予約機能を整理しきる</li><li>業者との連携を実務に合わせて確認する</li><li>納品前の必須項目を再点検する</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">現在の大改修後の全体段階が明示されていないため、完成時期は控えめな推定です。中心機能の置き換えは進んでいますが、確認と削除作業が多く、1-2週間以上の仕上げ期間を見込むのが妥当です。</p>
+    <ul class="next"><li>納車管理向けの残課題を仕上げる</li><li>店舗ごとの操作範囲を制限する</li><li>本番メール送信の設定を完了する</li><li>業者招待と通知の流れを確認する</li><li>納品前監査で出た不具合を再確認する</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">当初ロードマップは完了済みですが、現在は納車管理への作り替えが追加で進んでいます。残りは納品前の権限・通知・安定稼働確認が中心で、見込みは1-2週間程度です。</p>
     <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">今日</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 1680</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 432</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: Noukan overhaul pivot, 2026-06-09 to 2026-06-10</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 1759</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 436</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: 納車管理システム 大改修計画 v0.1 / pre-delivery</li></ul>
     </details>
   </article><article class="card">
     <header><h3>rashimi_dokoiku</h3><span class="badge">停止中</span></header>
@@ -181,7 +181,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在動く画面と未完成部分を確認する</li><li>診断結果の共有体験を仕上げる</li><li>会員向け機能の扱いを決める</li><li>全体ロードマップを作り直す</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">文書は複数ありますが、最終到達点を示す全体ロードマップは確認できません。再開する場合は、まず現状確認に数日、その後の仕上げに数週間程度を見込むのが妥当です。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">73日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">74日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 302</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 3 件</li><li>raw current_phase: Sprint 4</li></ul>
     </details>
@@ -194,7 +194,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>分析用の出力項目を増やす</li><li>賃金補完の結果を分析表に反映する</li><li>競合比較用の一覧を新しく作る</li><li>正解データを更新して精度を確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため完成時期は算出できません。次の分析拡張は範囲が明確なので、資料どおりなら数日から 1 週間程度で一区切りできる見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">21日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">22日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 649</li><li>技術: Python, Markdown</li><li>直近30日のコミット: 53</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: Phase 13</li></ul>
     </details>
@@ -207,20 +207,20 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>営業で自動化したい作業を決める</li><li>最初に扱う顧客情報を整理する</li><li>小さく試す範囲を決める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画がないため残り期間は不明です。小規模な試作から始めるなら、要件整理を含めて1-2週間程度が最初の目安です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">58日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">59日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 6</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
     </details>
   </article><article class="card">
     <header><h3>sysmaker</h3><span class="badge">停止中</span></header>
-    <p class="phase">現在地: 作業内容の確認が必要</p>
+    <p class="phase">現在地: 内容確認前の更新あり</p>
     <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">少数のファイル更新はありますが、進捗文書と履歴管理がないため、現在の目的や完成状態は判断できません。小規模な作業中の可能性はありますが、根拠は不足しています。</p>
-    <ul class="features"><li class="unknown">○ 少量ファイル更新</li><li class="unknown">○ 目的整理</li><li class="unknown">○ 進捗管理</li><li class="unknown">○ 完成条件の確認</li><li class="unknown">○ 作業履歴の整理</li></ul>
+    <p class="summary">直近で複数の更新はありますが、履歴管理と進捗資料がないため、現在地は判断できません。小規模な作業フォルダとして、内容確認前の段階と見るのが妥当です。</p>
+    <ul class="features"><li class="unknown">○ 資料または設定更新</li><li class="unknown">○ 進捗管理</li><li class="unknown">○ 履歴管理</li><li class="unknown">○ 成果物の確認</li><li class="todo">○ 次作業の整理</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>何を作っているか確認する</li><li>完成条件を短く整理する</li><li>更新内容の意味を確認する</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠文書がないため、残作業や完成時期は判断できません。まず現在の目的と次の作業を明文化する必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">66日前</span></footer>
+    <ul class="next"><li>更新された内容を確認する</li><li>目的と完成条件を整理する</li><li>必要であれば履歴管理を始める</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体像を示す資料がないため、完成見込みは判断できません。まず半日から1日程度で内容確認と目的整理を行う必要があります。</p>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">67日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 99</li><li>技術: Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
     </details>
@@ -233,22 +233,22 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>何を追うための場所か整理する</li><li>直近で必要な確認項目を決める</li><li>更新頻度とまとめ方を決める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">現時点では完成を目指す開発案件か、情報保管用かも判断できません。用途の整理だけなら数時間、運用化するなら数日程度の準備が必要です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">69日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">70日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 5</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li></ul>
     </details>
   </article><article class="card">
     <header><h3>unso-os</h3><span class="badge">活発に開発中</span></header>
-    <p class="phase">現在地: 質問機能の利用状況と改善候補を整備中</p>
+    <p class="phase">現在地: 集計機能と質問機能の拡張</p>
     <div class="progress-section progress-none"><div class="progress-headline-none">📂 ロードマップなし<span class="basis"> — 全体スコープを示すファイルが見つかりません</span></div></div>
-    <p class="summary">運送業務向けの管理システムは、内蔵の質問機能や利用状況の確認画面を中心に改善が進んでいます。直近の作業は少なめですが、過去30日では継続的に開発されています。</p>
-    <ul class="features"><li class="done">✓ 質問機能の基盤</li><li class="done">✓ 利用できる集計項目</li><li class="done">✓ 既存画面との整合</li><li class="done">✓ 未回答理由の確認</li><li class="in_progress">○ 改善候補の表示</li><li class="done">✓ 勤怠打刻の改善</li><li class="done">✓ 公開前の停止手順</li></ul>
+    <p class="summary">運送業向けの業務システムに、経営数値を質問できる機能や集計画面の強化が進んでいます。直近ではカーリペア向けに、スタッフ稼働と売上・人件費の見える化を追加しています。</p>
+    <ul class="features"><li class="in_progress">○ 経営質問機能</li><li class="done">✓ 未回答の理由集計</li><li class="in_progress">○ 集計項目の拡張</li><li class="done">✓ 売上分析</li><li class="done">✓ 人件費内訳</li><li class="done">✓ 店舗移動への対応</li><li class="todo">○ 段階公開の準備</li></ul>
     <h4 class="section-h">次にやるべきこと</h4>
-    <ul class="next"><li>改善候補の表示を完成させる</li><li>質問機能の扱える範囲を広げる</li><li>古い処理を段階的に整理する</li><li>公開前の確認手順に沿って点検する</li></ul>
-    <h4 class="section-h">このあとの見込み</h4><p class="outlook">明確な全体ロードマップがないため完成率は出せません。質問機能は複数段階が完了済みで、残りは利用範囲の拡張と整理が中心のため、数週間単位の継続作業と見込まれます。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">5日前</span></footer>
+    <ul class="next"><li>質問機能の残り拡張を進める</li><li>追加した集計の表示を確認する</li><li>公開前の段階確認を進める</li><li>未対応の集計項目を別作業で整理する</li></ul>
+    <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため正確な残量は出せませんが、個別計画では質問機能の拡張が段階的に進んでいます。残りの確認と公開準備に1-2週間程度の見込みです。</p>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">6日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 985</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 122</li><li>進捗ドキュメント: 15 件</li><li>raw current_phase: Phase E plan after Phase A-D complete</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 986</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 123</li><li>進捗ドキュメント: 15 件</li><li>raw current_phase: Phase E v1 / AI integration, dashboard enhancement</li></ul>
     </details>
   </article><article class="card">
     <header><h3>WebCreater</h3><span class="badge">活発に開発中</span></header>
@@ -259,7 +259,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>主要10画面の使いやすさを評価する</li><li>競合サービスから取り入れる点を整理する</li><li>編集画面の改善優先度を決める</li><li>公開までの体験を短く分かりやすくする</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画は作成・編集・公開・運用改善までの5段階で、現在は公開体験の完成度を上げる後半寄りの段階と見られます。決済や公開運用の仕上げが残るため、数週間から1か月程度の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">21日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">22日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 76</li><li>進捗ドキュメント: 3 件</li><li>raw current_phase: Phase 9-A UX roadmap</li></ul>
     </details>
@@ -272,7 +272,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>必要な写真素材をそろえる</li><li>トップページの見た目を統合する</li><li>下層6ページを同じ雰囲気で整える</li><li>診断体験が動く状態にする</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため完成時期は判断できません。資料上はトップページと6つの下層ページの試作が主な残作業で、素材が揃えば1-2週間程度の作業量に見えます。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">29日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">30日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 5000</li><li>技術: JavaScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 42 件</li><li>raw current_phase: Phase 1-4</li></ul>
     </details>
@@ -285,7 +285,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>プロジェクトの実体があるか確認する</li><li>目的と成果物を1枚に整理する</li><li>管理対象から外すか継続するか判断する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">材料が無いため完成見込みは出せません。まず数十分から半日程度で実体確認を行い、継続対象かどうかを決める段階です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">5日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">6日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 0</li><li>技術: 不明</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: no git / no files</li></ul>
     </details>
